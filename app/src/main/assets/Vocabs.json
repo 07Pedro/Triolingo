@@ -1,0 +1,5002 @@
+[
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "fly",
+    "translation": "fliegen",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "music",
+    "translation": "Musik",
+    "correct": 0
+  },
+  {
+    "value": "bus",
+    "translation": "Bus",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "apple",
+    "translation": "Apfel",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "baby",
+    "translation": "Baby",
+    "correct": 0
+  },
+  {
+    "value": "city",
+    "translation": "Stadt",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "walk",
+    "translation": "gehen",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "window",
+    "translation": "Fenster",
+    "correct": 0
+  },
+  {
+    "value": "child",
+    "translation": "Kind",
+    "correct": 0
+  },
+  {
+    "value": "train",
+    "translation": "Zug",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "lose",
+    "translation": "verlieren",
+    "correct": 0
+  },
+  {
+    "value": "lake",
+    "translation": "See",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "train",
+    "translation": "Zug",
+    "correct": 0
+  },
+  {
+    "value": "school",
+    "translation": "Schule",
+    "correct": 0
+  },
+  {
+    "value": "wake",
+    "translation": "wachen",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "mountain",
+    "translation": "Berg",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "buy",
+    "translation": "kaufen",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "egg",
+    "translation": "Ei",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "mother",
+    "translation": "Mutter",
+    "correct": 0
+  },
+  {
+    "value": "island",
+    "translation": "Insel",
+    "correct": 0
+  },
+  {
+    "value": "city",
+    "translation": "Stadt",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "house",
+    "translation": "Haus",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "lake",
+    "translation": "See",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "lose",
+    "translation": "verlieren",
+    "correct": 0
+  },
+  {
+    "value": "computer",
+    "translation": "Computer",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "friend",
+    "translation": "Freund",
+    "correct": 0
+  },
+  {
+    "value": "meat",
+    "translation": "Fleisch",
+    "correct": 0
+  },
+  {
+    "value": "computer",
+    "translation": "Computer",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "mountain",
+    "translation": "Berg",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "bus",
+    "translation": "Bus",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "swim",
+    "translation": "schwimmen",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "ocean",
+    "translation": "Ozean",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "train",
+    "translation": "Zug",
+    "correct": 0
+  },
+  {
+    "value": "movie",
+    "translation": "Film",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "ocean",
+    "translation": "Ozean",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "student",
+    "translation": "Schüler",
+    "correct": 0
+  },
+  {
+    "value": "sea",
+    "translation": "Meer",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "apple",
+    "translation": "Apfel",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  },
+  {
+    "value": "train",
+    "translation": "Zug",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "ocean",
+    "translation": "Ozean",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "computer",
+    "translation": "Computer",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "ocean",
+    "translation": "Ozean",
+    "correct": 0
+  },
+  {
+    "value": "friend",
+    "translation": "Freund",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "vegetable",
+    "translation": "Gemüse",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "walk",
+    "translation": "gehen",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "dance",
+    "translation": "tanzen",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "earth",
+    "translation": "Erde",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "water",
+    "translation": "Wasser",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "water",
+    "translation": "Wasser",
+    "correct": 0
+  },
+  {
+    "value": "wake",
+    "translation": "wachen",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "bicycle",
+    "translation": "Fahrrad",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "island",
+    "translation": "Insel",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  },
+  {
+    "value": "cheese",
+    "translation": "Käse",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "run",
+    "translation": "laufen",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "computer",
+    "translation": "Computer",
+    "correct": 0
+  },
+  {
+    "value": "water",
+    "translation": "Wasser",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "water",
+    "translation": "Wasser",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "draw",
+    "translation": "zeichnen",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "mother",
+    "translation": "Mutter",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "walk",
+    "translation": "gehen",
+    "correct": 0
+  },
+  {
+    "value": "lose",
+    "translation": "verlieren",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "island",
+    "translation": "Insel",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "apple",
+    "translation": "Apfel",
+    "correct": 0
+  },
+  {
+    "value": "pen",
+    "translation": "Stift",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "sea",
+    "translation": "Meer",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "train",
+    "translation": "Zug",
+    "correct": 0
+  },
+  {
+    "value": "earth",
+    "translation": "Erde",
+    "correct": 0
+  },
+  {
+    "value": "apple",
+    "translation": "Apfel",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "sea",
+    "translation": "Meer",
+    "correct": 0
+  },
+  {
+    "value": "house",
+    "translation": "Haus",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "drive",
+    "translation": "fahren",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "bicycle",
+    "translation": "Fahrrad",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "wake",
+    "translation": "wachen",
+    "correct": 0
+  },
+  {
+    "value": "school",
+    "translation": "Schule",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "movie",
+    "translation": "Film",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "buy",
+    "translation": "kaufen",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "weather",
+    "translation": "Wetter",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "mother",
+    "translation": "Mutter",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "mountain",
+    "translation": "Berg",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "ocean",
+    "translation": "Ozean",
+    "correct": 0
+  },
+  {
+    "value": "drive",
+    "translation": "fahren",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  },
+  {
+    "value": "bus",
+    "translation": "Bus",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "computer",
+    "translation": "Computer",
+    "correct": 0
+  },
+  {
+    "value": "draw",
+    "translation": "zeichnen",
+    "correct": 0
+  },
+  {
+    "value": "bus",
+    "translation": "Bus",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "baby",
+    "translation": "Baby",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "weather",
+    "translation": "Wetter",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "river",
+    "translation": "Fluss",
+    "correct": 0
+  },
+  {
+    "value": "child",
+    "translation": "Kind",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "dance",
+    "translation": "tanzen",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "father",
+    "translation": "Vater",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "fly",
+    "translation": "fliegen",
+    "correct": 0
+  },
+  {
+    "value": "walk",
+    "translation": "gehen",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "school",
+    "translation": "Schule",
+    "correct": 0
+  },
+  {
+    "value": "dance",
+    "translation": "tanzen",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "draw",
+    "translation": "zeichnen",
+    "correct": 0
+  },
+  {
+    "value": "lake",
+    "translation": "See",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "car",
+    "translation": "Auto",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "mother",
+    "translation": "Mutter",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "music",
+    "translation": "Musik",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "drive",
+    "translation": "fahren",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "buy",
+    "translation": "kaufen",
+    "correct": 0
+  },
+  {
+    "value": "apple",
+    "translation": "Apfel",
+    "correct": 0
+  },
+  {
+    "value": "river",
+    "translation": "Fluss",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "apple",
+    "translation": "Apfel",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "car",
+    "translation": "Auto",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "water",
+    "translation": "Wasser",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "brother",
+    "translation": "Bruder",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "river",
+    "translation": "Fluss",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "buy",
+    "translation": "kaufen",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "river",
+    "translation": "Fluss",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "mountain",
+    "translation": "Berg",
+    "correct": 0
+  },
+  {
+    "value": "egg",
+    "translation": "Ei",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "pen",
+    "translation": "Stift",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "student",
+    "translation": "Schüler",
+    "correct": 0
+  },
+  {
+    "value": "lose",
+    "translation": "verlieren",
+    "correct": 0
+  },
+  {
+    "value": "movie",
+    "translation": "Film",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "brother",
+    "translation": "Bruder",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "drive",
+    "translation": "fahren",
+    "correct": 0
+  },
+  {
+    "value": "island",
+    "translation": "Insel",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "swim",
+    "translation": "schwimmen",
+    "correct": 0
+  },
+  {
+    "value": "brother",
+    "translation": "Bruder",
+    "correct": 0
+  },
+  {
+    "value": "apple",
+    "translation": "Apfel",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "bicycle",
+    "translation": "Fahrrad",
+    "correct": 0
+  },
+  {
+    "value": "draw",
+    "translation": "zeichnen",
+    "correct": 0
+  },
+  {
+    "value": "student",
+    "translation": "Schüler",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "wake",
+    "translation": "wachen",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "mountain",
+    "translation": "Berg",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "swim",
+    "translation": "schwimmen",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "swim",
+    "translation": "schwimmen",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "earth",
+    "translation": "Erde",
+    "correct": 0
+  },
+  {
+    "value": "window",
+    "translation": "Fenster",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "car",
+    "translation": "Auto",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "brother",
+    "translation": "Bruder",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "bus",
+    "translation": "Bus",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "lose",
+    "translation": "verlieren",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "wake",
+    "translation": "wachen",
+    "correct": 0
+  },
+  {
+    "value": "mother",
+    "translation": "Mutter",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "swim",
+    "translation": "schwimmen",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "city",
+    "translation": "Stadt",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "music",
+    "translation": "Musik",
+    "correct": 0
+  },
+  {
+    "value": "baby",
+    "translation": "Baby",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "river",
+    "translation": "Fluss",
+    "correct": 0
+  },
+  {
+    "value": "fly",
+    "translation": "fliegen",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "sea",
+    "translation": "Meer",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "water",
+    "translation": "Wasser",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "drive",
+    "translation": "fahren",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "brother",
+    "translation": "Bruder",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "city",
+    "translation": "Stadt",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "vegetable",
+    "translation": "Gemüse",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "lose",
+    "translation": "verlieren",
+    "correct": 0
+  },
+  {
+    "value": "vegetable",
+    "translation": "Gemüse",
+    "correct": 0
+  },
+  {
+    "value": "friend",
+    "translation": "Freund",
+    "correct": 0
+  },
+  {
+    "value": "friend",
+    "translation": "Freund",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "cheese",
+    "translation": "Käse",
+    "correct": 0
+  },
+  {
+    "value": "water",
+    "translation": "Wasser",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "run",
+    "translation": "laufen",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "vegetable",
+    "translation": "Gemüse",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "bicycle",
+    "translation": "Fahrrad",
+    "correct": 0
+  },
+  {
+    "value": "draw",
+    "translation": "zeichnen",
+    "correct": 0
+  },
+  {
+    "value": "buy",
+    "translation": "kaufen",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "fly",
+    "translation": "fliegen",
+    "correct": 0
+  },
+  {
+    "value": "door",
+    "translation": "Tür",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "book",
+    "translation": "Buch",
+    "correct": 0
+  },
+  {
+    "value": "music",
+    "translation": "Musik",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "father",
+    "translation": "Vater",
+    "correct": 0
+  },
+  {
+    "value": "book",
+    "translation": "Buch",
+    "correct": 0
+  },
+  {
+    "value": "city",
+    "translation": "Stadt",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "weather",
+    "translation": "Wetter",
+    "correct": 0
+  },
+  {
+    "value": "car",
+    "translation": "Auto",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "door",
+    "translation": "Tür",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "dance",
+    "translation": "tanzen",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "music",
+    "translation": "Musik",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "book",
+    "translation": "Buch",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "door",
+    "translation": "Tür",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "lake",
+    "translation": "See",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "mother",
+    "translation": "Mutter",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "pen",
+    "translation": "Stift",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "mountain",
+    "translation": "Berg",
+    "correct": 0
+  },
+  {
+    "value": "house",
+    "translation": "Haus",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "swim",
+    "translation": "schwimmen",
+    "correct": 0
+  },
+  {
+    "value": "student",
+    "translation": "Schüler",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "dance",
+    "translation": "tanzen",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "vegetable",
+    "translation": "Gemüse",
+    "correct": 0
+  },
+  {
+    "value": "train",
+    "translation": "Zug",
+    "correct": 0
+  },
+  {
+    "value": "book",
+    "translation": "Buch",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "drive",
+    "translation": "fahren",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "mountain",
+    "translation": "Berg",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "book",
+    "translation": "Buch",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "bicycle",
+    "translation": "Fahrrad",
+    "correct": 0
+  },
+  {
+    "value": "brother",
+    "translation": "Bruder",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "friend",
+    "translation": "Freund",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "wake",
+    "translation": "wachen",
+    "correct": 0
+  },
+  {
+    "value": "dance",
+    "translation": "tanzen",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "meat",
+    "translation": "Fleisch",
+    "correct": 0
+  },
+  {
+    "value": "student",
+    "translation": "Schüler",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "weather",
+    "translation": "Wetter",
+    "correct": 0
+  },
+  {
+    "value": "ocean",
+    "translation": "Ozean",
+    "correct": 0
+  },
+  {
+    "value": "cheese",
+    "translation": "Käse",
+    "correct": 0
+  },
+  {
+    "value": "vegetable",
+    "translation": "Gemüse",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "baby",
+    "translation": "Baby",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "lake",
+    "translation": "See",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "earth",
+    "translation": "Erde",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "tired",
+    "translation": "müde",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "baby",
+    "translation": "Baby",
+    "correct": 0
+  },
+  {
+    "value": "school",
+    "translation": "Schule",
+    "correct": 0
+  },
+  {
+    "value": "bicycle",
+    "translation": "Fahrrad",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "drive",
+    "translation": "fahren",
+    "correct": 0
+  },
+  {
+    "value": "house",
+    "translation": "Haus",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "book",
+    "translation": "Buch",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "ocean",
+    "translation": "Ozean",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "car",
+    "translation": "Auto",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "river",
+    "translation": "Fluss",
+    "correct": 0
+  },
+  {
+    "value": "chair",
+    "translation": "Stuhl",
+    "correct": 0
+  },
+  {
+    "value": "book",
+    "translation": "Buch",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "cheese",
+    "translation": "Käse",
+    "correct": 0
+  },
+  {
+    "value": "friend",
+    "translation": "Freund",
+    "correct": 0
+  },
+  {
+    "value": "brother",
+    "translation": "Bruder",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "fire",
+    "translation": "Feuer",
+    "correct": 0
+  },
+  {
+    "value": "walk",
+    "translation": "gehen",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "train",
+    "translation": "Zug",
+    "correct": 0
+  },
+  {
+    "value": "mountain",
+    "translation": "Berg",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "lose",
+    "translation": "verlieren",
+    "correct": 0
+  },
+  {
+    "value": "house",
+    "translation": "Haus",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "house",
+    "translation": "Haus",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "vegetable",
+    "translation": "Gemüse",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "meat",
+    "translation": "Fleisch",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "fly",
+    "translation": "fliegen",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "mountain",
+    "translation": "Berg",
+    "correct": 0
+  },
+  {
+    "value": "car",
+    "translation": "Auto",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "student",
+    "translation": "Schüler",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "house",
+    "translation": "Haus",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "bus",
+    "translation": "Bus",
+    "correct": 0
+  },
+  {
+    "value": "music",
+    "translation": "Musik",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "city",
+    "translation": "Stadt",
+    "correct": 0
+  },
+  {
+    "value": "school",
+    "translation": "Schule",
+    "correct": 0
+  },
+  {
+    "value": "car",
+    "translation": "Auto",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "pen",
+    "translation": "Stift",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "friend",
+    "translation": "Freund",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "train",
+    "translation": "Zug",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "train",
+    "translation": "Zug",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "bicycle",
+    "translation": "Fahrrad",
+    "correct": 0
+  },
+  {
+    "value": "water",
+    "translation": "Wasser",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "car",
+    "translation": "Auto",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "music",
+    "translation": "Musik",
+    "correct": 0
+  },
+  {
+    "value": "forest",
+    "translation": "Wald",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "walk",
+    "translation": "gehen",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "bus",
+    "translation": "Bus",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "start",
+    "translation": "starten",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "water",
+    "translation": "Wasser",
+    "correct": 0
+  },
+  {
+    "value": "draw",
+    "translation": "zeichnen",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "drive",
+    "translation": "fahren",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "baby",
+    "translation": "Baby",
+    "correct": 0
+  },
+  {
+    "value": "drive",
+    "translation": "fahren",
+    "correct": 0
+  },
+  {
+    "value": "star",
+    "translation": "Stern",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "father",
+    "translation": "Vater",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "computer",
+    "translation": "Computer",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "ocean",
+    "translation": "Ozean",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "lake",
+    "translation": "See",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "movie",
+    "translation": "Film",
+    "correct": 0
+  },
+  {
+    "value": "baby",
+    "translation": "Baby",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "dance",
+    "translation": "tanzen",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "walk",
+    "translation": "gehen",
+    "correct": 0
+  },
+  {
+    "value": "earth",
+    "translation": "Erde",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "village",
+    "translation": "Dorf",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "window",
+    "translation": "Fenster",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "father",
+    "translation": "Vater",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "apple",
+    "translation": "Apfel",
+    "correct": 0
+  },
+  {
+    "value": "draw",
+    "translation": "zeichnen",
+    "correct": 0
+  },
+  {
+    "value": "wake",
+    "translation": "wachen",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "sea",
+    "translation": "Meer",
+    "correct": 0
+  },
+  {
+    "value": "chicken",
+    "translation": "Huhn",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "fish",
+    "translation": "Fisch",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "sea",
+    "translation": "Meer",
+    "correct": 0
+  },
+  {
+    "value": "window",
+    "translation": "Fenster",
+    "correct": 0
+  },
+  {
+    "value": "lake",
+    "translation": "See",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "window",
+    "translation": "Fenster",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "dream",
+    "translation": "Traum",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "work",
+    "translation": "arbeiten",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "bus",
+    "translation": "Bus",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "pen",
+    "translation": "Stift",
+    "correct": 0
+  },
+  {
+    "value": "read",
+    "translation": "lesen",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "cheese",
+    "translation": "Käse",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "mother",
+    "translation": "Mutter",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "sun",
+    "translation": "Sonne",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "cheese",
+    "translation": "Käse",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "brother",
+    "translation": "Bruder",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "ocean",
+    "translation": "Ozean",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "fly",
+    "translation": "fliegen",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "teacher",
+    "translation": "Lehrer",
+    "correct": 0
+  },
+  {
+    "value": "child",
+    "translation": "Kind",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "mother",
+    "translation": "Mutter",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "pen",
+    "translation": "Stift",
+    "correct": 0
+  },
+  {
+    "value": "rest",
+    "translation": "ruhen",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "baby",
+    "translation": "Baby",
+    "correct": 0
+  },
+  {
+    "value": "river",
+    "translation": "Fluss",
+    "correct": 0
+  },
+  {
+    "value": "egg",
+    "translation": "Ei",
+    "correct": 0
+  },
+  {
+    "value": "movie",
+    "translation": "Film",
+    "correct": 0
+  },
+  {
+    "value": "sea",
+    "translation": "Meer",
+    "correct": 0
+  },
+  {
+    "value": "egg",
+    "translation": "Ei",
+    "correct": 0
+  },
+  {
+    "value": "happy",
+    "translation": "glücklich",
+    "correct": 0
+  },
+  {
+    "value": "bread",
+    "translation": "Brot",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "music",
+    "translation": "Musik",
+    "correct": 0
+  },
+  {
+    "value": "sell",
+    "translation": "verkaufen",
+    "correct": 0
+  },
+  {
+    "value": "phone",
+    "translation": "Telefon",
+    "correct": 0
+  },
+  {
+    "value": "fruit",
+    "translation": "Frucht",
+    "correct": 0
+  },
+  {
+    "value": "eat",
+    "translation": "essen",
+    "correct": 0
+  },
+  {
+    "value": "mother",
+    "translation": "Mutter",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "country",
+    "translation": "Land",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "apple",
+    "translation": "Apfel",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "rain",
+    "translation": "Regen",
+    "correct": 0
+  },
+  {
+    "value": "computer",
+    "translation": "Computer",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "ride",
+    "translation": "reiten",
+    "correct": 0
+  },
+  {
+    "value": "walk",
+    "translation": "gehen",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "moon",
+    "translation": "Mond",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "earth",
+    "translation": "Erde",
+    "correct": 0
+  },
+  {
+    "value": "stop",
+    "translation": "stoppen",
+    "correct": 0
+  },
+  {
+    "value": "tree",
+    "translation": "Baum",
+    "correct": 0
+  },
+  {
+    "value": "jump",
+    "translation": "springen",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "sad",
+    "translation": "traurig",
+    "correct": 0
+  },
+  {
+    "value": "pen",
+    "translation": "Stift",
+    "correct": 0
+  },
+  {
+    "value": "cloud",
+    "translation": "Wolke",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "city",
+    "translation": "Stadt",
+    "correct": 0
+  },
+  {
+    "value": "door",
+    "translation": "Tür",
+    "correct": 0
+  },
+  {
+    "value": "butter",
+    "translation": "Butter",
+    "correct": 0
+  },
+  {
+    "value": "car",
+    "translation": "Auto",
+    "correct": 0
+  },
+  {
+    "value": "desert",
+    "translation": "Wüste",
+    "correct": 0
+  },
+  {
+    "value": "bus",
+    "translation": "Bus",
+    "correct": 0
+  },
+  {
+    "value": "sea",
+    "translation": "Meer",
+    "correct": 0
+  },
+  {
+    "value": "earth",
+    "translation": "Erde",
+    "correct": 0
+  },
+  {
+    "value": "sister",
+    "translation": "Schwester",
+    "correct": 0
+  },
+  {
+    "value": "computer",
+    "translation": "Computer",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "dance",
+    "translation": "tanzen",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "bicycle",
+    "translation": "Fahrrad",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "chair",
+    "translation": "Stuhl",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "dog",
+    "translation": "Hund",
+    "correct": 0
+  },
+  {
+    "value": "father",
+    "translation": "Vater",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "house",
+    "translation": "Haus",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "build",
+    "translation": "bauen",
+    "correct": 0
+  },
+  {
+    "value": "river",
+    "translation": "Fluss",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "egg",
+    "translation": "Ei",
+    "correct": 0
+  },
+  {
+    "value": "run",
+    "translation": "laufen",
+    "correct": 0
+  },
+  {
+    "value": "cat",
+    "translation": "Katze",
+    "correct": 0
+  },
+  {
+    "value": "write",
+    "translation": "schreiben",
+    "correct": 0
+  },
+  {
+    "value": "snow",
+    "translation": "Schnee",
+    "correct": 0
+  },
+  {
+    "value": "milk",
+    "translation": "Milch",
+    "correct": 0
+  },
+  {
+    "value": "angry",
+    "translation": "wütend",
+    "correct": 0
+  },
+  {
+    "value": "paper",
+    "translation": "Papier",
+    "correct": 0
+  },
+  {
+    "value": "window",
+    "translation": "Fenster",
+    "correct": 0
+  },
+  {
+    "value": "house",
+    "translation": "Haus",
+    "correct": 0
+  },
+  {
+    "value": "sky",
+    "translation": "Himmel",
+    "correct": 0
+  },
+  {
+    "value": "student",
+    "translation": "Schüler",
+    "correct": 0
+  },
+  {
+    "value": "wind",
+    "translation": "Wind",
+    "correct": 0
+  },
+  {
+    "value": "father",
+    "translation": "Vater",
+    "correct": 0
+  },
+  {
+    "value": "family",
+    "translation": "Familie",
+    "correct": 0
+  },
+  {
+    "value": "love",
+    "translation": "Liebe",
+    "correct": 0
+  },
+  {
+    "value": "play",
+    "translation": "spielen",
+    "correct": 0
+  },
+  {
+    "value": "meat",
+    "translation": "Fleisch",
+    "correct": 0
+  },
+  {
+    "value": "road",
+    "translation": "Straße",
+    "correct": 0
+  },
+  {
+    "value": "sleep",
+    "translation": "Schlaf",
+    "correct": 0
+  },
+  {
+    "value": "table",
+    "translation": "Tisch",
+    "correct": 0
+  },
+  {
+    "value": "break",
+    "translation": "brechen",
+    "correct": 0
+  },
+  {
+    "value": "lose",
+    "translation": "verlieren",
+    "correct": 0
+  },
+  {
+    "value": "open",
+    "translation": "öffnen",
+    "correct": 0
+  },
+  {
+    "value": "cook",
+    "translation": "kochen",
+    "correct": 0
+  },
+  {
+    "value": "friend",
+    "translation": "Freund",
+    "correct": 0
+  },
+  {
+    "value": "drink",
+    "translation": "trinken",
+    "correct": 0
+  },
+  {
+    "value": "chair",
+    "translation": "Stuhl",
+    "correct": 0
+  },
+  {
+    "value": "sing",
+    "translation": "singen",
+    "correct": 0
+  },
+  {
+    "value": "win",
+    "translation": "gewinnen",
+    "correct": 0
+  },
+  {
+    "value": "close",
+    "translation": "schließen",
+    "correct": 0
+  },
+  {
+    "value": "egg",
+    "translation": "Ei",
+    "correct": 0
+  },
+  {
+    "value": "storm",
+    "translation": "Sturm",
+    "correct": 0
+  }
+]
