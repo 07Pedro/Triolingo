@@ -17,11 +17,11 @@
         android:gravity="center"
         android:orientation="vertical"
         android:padding="24dp"
-        android:visibility="gone"
+        android:visibility="visible"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
         tools:layout_editor_absoluteY="361dp"
-        tools:visibility="gone">
+        tools:visibility="visible">
 
         <TextView
             android:id="@+id/wordText"
@@ -97,6 +97,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"
+        tools:visibility="invisible"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -114,6 +116,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:visibility="invisible"
+        tools:visibility="invisible"
         tools:ignore="MissingConstraints" />
 
     <Button
