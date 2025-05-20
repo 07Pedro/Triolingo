@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "ch.petrce.triolingo"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ch.petrce.triolingo"
