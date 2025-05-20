@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private LinearLayout linearLayout;
     private TextView progressText;
     private ProgressBar progressBar;
+    private View buttonMoreExercises;
+    private View buttonRemindMeLater;
+
     private View rootView;
     private SensorManager sensorManager;
     private Sensor accelerometer;
@@ -56,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         vocabList = JsonLoader.loadVocabulary(this); // call loadfunction for vocablist
         progressText = findViewById(R.id.progressText); // get progress text
         progressBar = findViewById(R.id.progressBar); // get progress bar
+        buttonMoreExercises = findViewById(R.id.button2); // get button restart
+        buttonRemindMeLater = findViewById(R.id.button4); // get button notify
+
 
         progressBar.setMax(vocabList.size()); // set progressbar size
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE); // initialize sensorManager
@@ -183,13 +189,27 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 Log.d("Triolingo", "Ende der Liste");
                 rootView.setBackgroundColor(Color.parseColor("#434343")); // keep default color
                 linearLayout.setBackgroundColor(Color.parseColor("#434343")); // keep default color
+                showCompletionScreen();
                 return;
             }
             showCurrentVocab();
             rootView.setBackgroundColor(Color.parseColor("#434343")); // keep default color
             linearLayout.setBackgroundColor(Color.parseColor("#434343")); // keep default color
-            waitingForFlip = false; // ready for new tap
-        }, 800); // delay for userfriendliness
+            waitingForFlip = false;
+        }, 800);
     }
+
+
+    private void showCompletionScreen() {
+        wordText.setVisibility(View.GONE);
+        translationText.setVisibility(View.GONE);
+        progressText.setVisibility(View.GONE);
+        progressBar.setVisibility(View.GONE);
+        linearLayout.setVisibility(View.GONE);
+
+        buttonMoreExercises.setVisibility(View.VISIBLE);
+        buttonRemindMeLater.setVisibility(View.VISIBLE);
+    }
+
 
 }

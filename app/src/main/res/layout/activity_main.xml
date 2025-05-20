@@ -13,14 +13,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_marginTop="361dp"
+        android:layout_marginBottom="361dp"
         android:background="#434343"
         android:gravity="center"
         android:orientation="vertical"
         android:padding="24dp"
         android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="361dp"
         tools:visibility="visible">
 
         <TextView
@@ -93,13 +97,13 @@
         android:background="@drawable/rounded_btn"
         android:text="More Exercises"
         android:textSize="30sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:visibility="invisible"
-        tools:visibility="invisible"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/button4"
@@ -112,13 +116,13 @@
         android:background="@drawable/rounded_btn"
         android:text="Remind me later"
         android:textSize="30sp"
+        android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:visibility="invisible"
-        tools:visibility="invisible"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:visibility="invisible" />
 
     <Button
         android:id="@+id/button5"
