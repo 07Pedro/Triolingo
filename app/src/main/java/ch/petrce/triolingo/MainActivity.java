@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         buttonMoreExercises = findViewById(R.id.button2); // get button restart
         buttonRemindMeLater = findViewById(R.id.button4); // get button notify
 
+        buttonMoreExercises.setOnClickListener(v -> restartExercise()); // on restart button click call restartExercise func.
 
         progressBar.setMax(vocabList.size()); // set progressbar size
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE); // initialize sensorManager
@@ -187,10 +188,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             currentIndex++; // go to next index
             if (currentIndex >= vocabList.size()) {
                 Log.d("Triolingo", "Ende der Liste");
-                rootView.setBackgroundColor(Color.parseColor("#434343")); // keep default color
-                linearLayout.setBackgroundColor(Color.parseColor("#434343")); // keep default color
-                showCompletionScreen();
-                return;
+                showCompletionScreen(); // show the competion screen
             }
             showCurrentVocab();
             rootView.setBackgroundColor(Color.parseColor("#434343")); // keep default color
@@ -199,17 +197,35 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }, 800);
     }
 
+    private void restartExercise() {
+        vocabList = JsonLoader.loadVocabulary(this);
+        currentIndex = 0;
+        flipDetected = false;
+        waitingForFlip = false;
+        showingWord = true;
 
-    private void showCompletionScreen() {
-        wordText.setVisibility(View.GONE);
-        translationText.setVisibility(View.GONE);
-        progressText.setVisibility(View.GONE);
-        progressBar.setVisibility(View.GONE);
-        linearLayout.setVisibility(View.GONE);
+        findViewById(R.id.button2).setVisibility(View.INVISIBLE);
+        findViewById(R.id.button4).setVisibility(View.INVISIBLE);
+        linearLayout.setVisibility(View.VISIBLE);
+        wordText.setVisibility(View.VISIBLE);
+        translationText.setVisibility(View.INVISIBLE);
+        progressText.setVisibility(View.VISIBLE);
+        progressBar.setVisibility(View.VISIBLE);
 
-        buttonMoreExercises.setVisibility(View.VISIBLE);
-        buttonRemindMeLater.setVisibility(View.VISIBLE);
+        rootView.setBackgroundColor(Color.parseColor("#434343"));
+        linearLayout.setBackgroundColor(Color.parseColor("#434343"));
+
+        showCurrentVocab();
     }
 
+    private void showCompletionScreen() {
+        wordText.setVisibility(View.INVISIBLE);
+        translationText.setVisibility(View.INVISIBLE);
+        progressText.setVisibility(View.INVISIBLE);
+        progressBar.setVisibility(View.INVISIBLE);
+        linearLayout.setVisibility(View.INVISIBLE);
 
+        findViewById(R.id.button2).setVisibility(View.VISIBLE); // More Exercises
+        findViewById(R.id.button4).setVisibility(View.VISIBLE); // Remind me later
+    }
 }
