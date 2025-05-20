@@ -8,7 +8,10 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -24,9 +27,17 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private List<Vocab> vocabList;
     private TextView wordText;
     private TextView translationText;
+    private LinearLayout linearLayout;
+    private TextView progressText;
+    private ProgressBar progressBar;
     private View rootView;
     private SensorManager sensorManager;
     private Sensor accelerometer;
+
+    private boolean showingWord = true; // visible word otherwise translation
+    private boolean waitingForFlip = false; // wait for flip after tapping screen
+    private boolean flipDetected = false; // stops multiple flipping
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,15 +51,36 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         });
         rootView = findViewById(R.id.main); // get layout from xml
         wordText = findViewById(R.id.wordText); // get wordText from xml
+        linearLayout = findViewById(R.id.cardLayout);
         translationText = findViewById(R.id.translationText); // get translationText from xml
         vocabList = JsonLoader.loadVocabulary(this); // call loadfunction for vocablist
+        progressText = findViewById(R.id.progressText); // get progress text
+        progressBar = findViewById(R.id.progressBar); // get progress bar
 
+        progressBar.setMax(vocabList.size()); // set progressbar size
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE); // initialize sensorManager
         if(sensorManager != null) {
             accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER); // get accelerometer sensor
         }
 
+
+        translationText.setVisibility(View.INVISIBLE); // hide translation element
+
         showCurrentVocab(); // call function to show first vocab
+
+        // Touch Listener to toggel translation (chatgpt)
+        rootView.setOnTouchListener((v, event) -> {
+            if (event.getAction() == MotionEvent.ACTION_DOWN) {
+                if (!waitingForFlip) {
+                    toggleWordTranslation();
+                    rootView.setBackgroundColor(Color.parseColor("#3c3e55")); // turn blue
+                    linearLayout.setBackgroundColor(Color.parseColor("#3c3e55")); // turn blue
+                    waitingForFlip = true; // wait for the flip!
+                }
+                return true;
+            }
+            return false;
+        });
     }
 
     private void showCurrentVocab() {
@@ -56,7 +88,32 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             Vocab vocab = vocabList.get(currentIndex); // get correct vocab (number)
             wordText.setText(vocab.getValue()); // set wordText to vocab value
             translationText.setText(vocab.getTranslation()); // set translaitonText to vocab value
-            Log.d("Triolingo", "Wort geladen: " + vocab.getValue()); // log
+            wordText.setVisibility(View.VISIBLE); // make text visible
+            translationText.setVisibility(View.INVISIBLE); // make translation invisible
+            showingWord = true;
+
+            updateProgress();
+            Log.d("Triolingo", "Wort geladen: " + vocab.getValue());
+        }
+    }
+
+    // update progres
+    private void updateProgress() {
+        progressText.setText((currentIndex + 1) + " / " + vocabList.size());
+        progressBar.setMax(vocabList.size());
+        progressBar.setProgress(currentIndex + 1);
+    }
+
+    // change visibility of the translation
+    private void toggleWordTranslation() {
+        if (showingWord) {
+            wordText.setVisibility(View.INVISIBLE);
+            translationText.setVisibility(View.VISIBLE);
+            showingWord = false;
+        } else {
+            wordText.setVisibility(View.VISIBLE);
+            translationText.setVisibility(View.INVISIBLE);
+            showingWord = true;
         }
     }
 
@@ -78,21 +135,61 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     @Override
     public void onSensorChanged(SensorEvent event) {
-        if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
-            float x = event.values[0]; // Links/Rechts Kippen
+        if (!waitingForFlip) return; // only when waiting for the filp
 
-            if (x > 3) {
-                rootView.setBackgroundColor(Color.parseColor("#553b3c")); // set background color to red
-                Log.d("Triolingo", "Kippe nach links erkannt");
-            } else if (x < -3) {
-                rootView.setBackgroundColor(Color.parseColor("#3d553d")); // set background color to green
-                Log.d("Triolingo", "Kippe nach rechts erkannt");
-            } else {
-                rootView.setBackgroundColor(Color.parseColor("#3c3e55")); // keep background color
+        if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+            float x = event.values[0]; // Left/Right flip
+            float threshold = 3.0f;
+
+            if (x > -1.5f && x < 1.5f) { // define range so no vocabs are skipped
+                flipDetected = false; // ready for another flip
+            }
+
+            if (!flipDetected) {
+
+                if (x < -threshold) {
+                    // Flip to right (correct)
+                    flipDetected = true;
+                    rootView.setBackgroundColor(Color.parseColor("#3d553d")); // set background color to green
+                    linearLayout.setBackgroundColor(Color.parseColor("#3d553d"));
+                    Log.d("Triolingo", "Flip nach rechts: korrekt");
+                    markCurrentVocabCorrect();
+                    goToNextVocab();
+                } else if (x > threshold) {
+                    // flip to left (wrong)
+                    flipDetected = true;
+                    rootView.setBackgroundColor(Color.parseColor("#553b3c")); // set background color to red
+                    linearLayout.setBackgroundColor(Color.parseColor("#553b3c"));
+                    Log.d("Triolingo", "Flip nach links: falsch");
+                    goToNextVocab();
+                } else {
+                    rootView.setBackgroundColor(Color.parseColor("#3c3e55")); // keep background color
+                    linearLayout.setBackgroundColor(Color.parseColor("#3c3e55")); // keep background color
+                }
             }
         }
     }
 
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {}
+
+    private void markCurrentVocabCorrect() {} // TODO implemetn the increase in the JSON file
+
+    // switch to next vocab
+    private void goToNextVocab() {
+        rootView.postDelayed(() -> {
+            currentIndex++; // go to next index
+            if (currentIndex >= vocabList.size()) {
+                Log.d("Triolingo", "Ende der Liste");
+                rootView.setBackgroundColor(Color.parseColor("#434343")); // keep default color
+                linearLayout.setBackgroundColor(Color.parseColor("#434343")); // keep default color
+                return;
+            }
+            showCurrentVocab();
+            rootView.setBackgroundColor(Color.parseColor("#434343")); // keep default color
+            linearLayout.setBackgroundColor(Color.parseColor("#434343")); // keep default color
+            waitingForFlip = false; // ready for new tap
+        }, 800); // delay for userfriendliness
+    }
+
 }
