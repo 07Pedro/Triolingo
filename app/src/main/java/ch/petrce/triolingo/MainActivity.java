@@ -20,6 +20,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.Collections;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
@@ -32,7 +33,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private ProgressBar progressBar;
     private View buttonMoreExercises;
     private View buttonRemindMeLater;
-
     private View rootView;
     private SensorManager sensorManager;
     private Sensor accelerometer;
@@ -70,8 +70,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             accelerometer = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER); // get accelerometer sensor
         }
 
-
-        translationText.setVisibility(View.INVISIBLE); // hide translation element
+        translationText.setVisibility(View.INVISIBLE);
+        loadFilteredVocabulary(); // get filtered vocab
 
         showCurrentVocab(); // call function to show first vocab
 
@@ -180,7 +180,22 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {}
 
-    private void markCurrentVocabCorrect() {} // TODO implemetn the increase in the JSON file
+    // mark vocab as correct when guessed right
+    private void markCurrentVocabCorrect() {
+        Vocab current = vocabList.get(currentIndex); // get currect vocab
+        current.setCorrect(current.getCorrect() + 1); // increase correct
+
+        List<Vocab> fullList = JsonLoader.loadFullVocabulary(this); // load full list
+        for (Vocab v : fullList) { // loop throu list and update current vocab
+            if (v.getValue().equals(current.getValue()) &&
+                    v.getTranslation().equals(current.getTranslation())) {
+                v.setCorrect(current.getCorrect());
+                break;
+            }
+        }
+
+        JsonLoader.saveVocabulary(this, fullList); // save list with new values
+    }
 
     // switch to next vocab
     private void goToNextVocab() {
@@ -198,7 +213,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     }
 
     private void restartExercise() {
-        vocabList = JsonLoader.loadVocabulary(this);
+        loadFilteredVocabulary(); // get only filtered vocabs
         currentIndex = 0;
         flipDetected = false;
         waitingForFlip = false;
@@ -228,4 +243,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         findViewById(R.id.button2).setVisibility(View.VISIBLE); // More Exercises
         findViewById(R.id.button4).setVisibility(View.VISIBLE); // Remind me later
     }
+
+    private void loadFilteredVocabulary() {
+        List<Vocab> fullList = JsonLoader.loadFullVocabulary(this);
+        fullList.removeIf(vocab -> vocab.getCorrect() >= 5); // remove vocabs where correct >= 5
+
+        JsonLoader.saveVocabulary(this, fullList); // Save filtered list which removes "learned" vocabs permanently
+        Collections.shuffle(fullList); // Shuffle and select 30 vocabs
+        vocabList = fullList.subList(0, Math.min(vocabList.size(), fullList.size()));
+    }
+
 }
