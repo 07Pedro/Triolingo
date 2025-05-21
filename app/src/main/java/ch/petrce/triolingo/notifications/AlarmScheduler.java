@@ -37,4 +37,27 @@ public class AlarmScheduler {
             );
         }
     }
+    public static void scheduleReminderInHours(Context context, int hours) {
+        // Intent to fire our same NotificationReceiver
+        Intent intent = new Intent(context, NotificationReceiver.class);
+        PendingIntent pi = PendingIntent.getBroadcast(
+                context,
+                1,
+                intent,
+                PendingIntent.FLAG_IMMUTABLE
+        );
+
+        long delayMillis = hours * 60L * 60L * 1000L;
+        long triggerTime = System.currentTimeMillis() + delayMillis;
+
+        AlarmManager am = (AlarmManager) context.getSystemService(Context.ALARM_SERVICE);
+        if (am != null) {
+            am.setExactAndAllowWhileIdle(
+                    AlarmManager.RTC_WAKEUP,
+                    triggerTime,
+                    pi
+            );
+        }
+    }
+
 }

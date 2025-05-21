@@ -1,8 +1,8 @@
 package ch.petrce.triolingo;
 
-import static android.content.ContentValues.TAG;
 import android.Manifest;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
@@ -15,6 +15,8 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -43,8 +45,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private LinearLayout linearLayout;
     private TextView progressText;
     private ProgressBar progressBar;
-    private View buttonMoreExercises;
-    private View buttonRemindMeLater;
+    private Button buttonMoreExercises;
+    private Button buttonRemindMeLater;
+    private ImageButton closeButton;
     private View rootView;
     private SensorManager sensorManager;
     private Sensor accelerometer;
@@ -54,6 +57,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private boolean flipDetected = false; // stops multiple flipping
 
 
+    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,8 +75,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         vocabList = JsonLoader.loadVocabulary(this); // call loadfunction for vocablist
         progressText = findViewById(R.id.progressText); // get progress text
         progressBar = findViewById(R.id.progressBar); // get progress bar
-        buttonMoreExercises = findViewById(R.id.button2); // get button restart
-        buttonRemindMeLater = findViewById(R.id.button4); // get button notify
+        buttonMoreExercises = findViewById(R.id.exerciseButton); // get button restart
+        buttonRemindMeLater = findViewById(R.id.remindButton); // get button notify
 
         buttonMoreExercises.setOnClickListener(v -> restartExercise()); // on restart button click call restartExercise func.
 
@@ -118,6 +122,18 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }
 
         AlarmScheduler.scheduleDailyNotification(this); // start schedule
+
+
+        buttonRemindMeLater.setOnClickListener(v -> {
+            // schedule notification in 2 hours
+            ch.petrce.triolingo.notifications.AlarmScheduler
+                    .scheduleReminderInHours(MainActivity.this, 2);
+
+            // close app
+            finish();
+        });
+        closeButton = findViewById(R.id.closeButton);
+        closeButton.setOnClickListener(v -> finish());
     }
 
     @Override
@@ -262,8 +278,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         waitingForFlip = false;
         showingWord = true;
 
-        findViewById(R.id.button2).setVisibility(View.INVISIBLE);
-        findViewById(R.id.button4).setVisibility(View.INVISIBLE);
+        findViewById(R.id.exerciseButton).setVisibility(View.INVISIBLE);
+        findViewById(R.id.remindButton).setVisibility(View.INVISIBLE);
         linearLayout.setVisibility(View.VISIBLE);
         wordText.setVisibility(View.VISIBLE);
         translationText.setVisibility(View.INVISIBLE);
@@ -283,8 +299,8 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         progressBar.setVisibility(View.INVISIBLE);
         linearLayout.setVisibility(View.INVISIBLE);
 
-        findViewById(R.id.button2).setVisibility(View.VISIBLE); // More Exercises
-        findViewById(R.id.button4).setVisibility(View.VISIBLE); // Remind me later
+        findViewById(R.id.exerciseButton).setVisibility(View.VISIBLE); // More Exercises
+        findViewById(R.id.remindButton).setVisibility(View.VISIBLE); // Remind me later
     }
 
     private void loadFilteredVocabulary() {

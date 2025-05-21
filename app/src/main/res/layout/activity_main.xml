@@ -86,7 +86,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/exerciseButton"
         android:layout_width="308dp"
         android:layout_height="91dp"
         android:layout_marginStart="52dp"
@@ -105,7 +105,7 @@
         tools:visibility="invisible" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/remindButton"
         android:layout_width="308dp"
         android:layout_height="91dp"
         android:layout_marginStart="51dp"
@@ -123,19 +123,18 @@
         tools:ignore="MissingConstraints"
         tools:visibility="invisible" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="51dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="344dp"
+    <ImageButton
+        android:id="@+id/closeButton"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/kreuzmarkierung"
+        android:scaleType="centerInside"
+        android:background="?attr/selectableItemBackgroundBorderless"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="849dp"
-        android:background="@android:drawable/ic_menu_close_clear_cancel"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
