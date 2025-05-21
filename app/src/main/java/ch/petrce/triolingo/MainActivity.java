@@ -1,11 +1,16 @@
 package ch.petrce.triolingo;
 
+import static android.content.ContentValues.TAG;
+import android.Manifest;
+
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
@@ -15,7 +20,10 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -23,7 +31,11 @@ import androidx.core.view.WindowInsetsCompat;
 import java.util.Collections;
 import java.util.List;
 
+import ch.petrce.triolingo.notifications.AlarmScheduler;
+
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
+    private static final int PERMISSION_CODE = 101;
+    private static final int REQUEST_NOTIFICATIONS = 101;
     private Integer currentIndex = 0;
     private List<Vocab> vocabList;
     private TextView wordText;
@@ -88,6 +100,37 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }
             return false;
         });
+
+        // If Android 13+, check if POST_NOTIFICATIONS permission is granted
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(this,
+                    Manifest.permission.POST_NOTIFICATIONS)
+                    != PackageManager.PERMISSION_GRANTED) {
+
+                // Ask the user for permission to send notification
+                ActivityCompat.requestPermissions(
+                        this,
+                        new String[]{ Manifest.permission.POST_NOTIFICATIONS },
+                        REQUEST_NOTIFICATIONS
+                );
+                return;
+            }
+        }
+
+        AlarmScheduler.scheduleDailyNotification(this); // start schedule
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode,
+                                           @NonNull String[] permissions,
+                                           @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == REQUEST_NOTIFICATIONS
+                && grantResults.length > 0
+                && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+
+            AlarmScheduler.scheduleDailyNotification(this); // start schedule if permission granted
+        }
     }
 
     private void showCurrentVocab() {
