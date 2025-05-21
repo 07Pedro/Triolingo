@@ -8,30 +8,23 @@
     android:background="#434343"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <FrameLayout
         android:id="@+id/cardLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginTop="361dp"
-        android:layout_marginBottom="361dp"
         android:background="#434343"
-        android:gravity="center"
-        android:orientation="vertical"
         android:padding="24dp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
+        android:layout_gravity="center"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:visibility="visible">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
 
         <TextView
             android:id="@+id/wordText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_gravity="center"
             android:gravity="center"
             android:text="test"
             android:textColor="#FFFFFF"
@@ -42,13 +35,14 @@
             android:id="@+id/translationText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="12dp"
+            android:layout_gravity="center"
             android:gravity="center"
             android:text="test2"
             android:textColor="#FFFFFF"
             android:textSize="45sp"
             android:textStyle="bold" />
-    </LinearLayout>
+    </FrameLayout>
+
 
     <TextView
         android:id="@+id/progressText"

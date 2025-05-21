@@ -16,8 +16,8 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ImageButton;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     private List<Vocab> vocabList;
     private TextView wordText;
     private TextView translationText;
-    private LinearLayout linearLayout;
+    private FrameLayout frameLayout;
     private TextView progressText;
     private ProgressBar progressBar;
     private Button buttonMoreExercises;
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         });
         rootView = findViewById(R.id.main); // get layout from xml
         wordText = findViewById(R.id.wordText); // get wordText from xml
-        linearLayout = findViewById(R.id.cardLayout);
+        frameLayout = findViewById(R.id.cardLayout);
         translationText = findViewById(R.id.translationText); // get translationText from xml
         vocabList = JsonLoader.loadVocabulary(this); // call loadfunction for vocablist
         progressText = findViewById(R.id.progressText); // get progress text
@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                 if (!waitingForFlip) {
                     toggleWordTranslation();
                     rootView.setBackgroundColor(Color.parseColor("#3c3e55")); // turn blue
-                    linearLayout.setBackgroundColor(Color.parseColor("#3c3e55")); // turn blue
+                    frameLayout.setBackgroundColor(Color.parseColor("#3c3e55")); // turn blue
                     waitingForFlip = true; // wait for the flip!
                 }
                 return true;
@@ -217,7 +217,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     // Flip to right (correct)
                     flipDetected = true;
                     rootView.setBackgroundColor(Color.parseColor("#3d553d")); // set background color to green
-                    linearLayout.setBackgroundColor(Color.parseColor("#3d553d"));
+                    frameLayout.setBackgroundColor(Color.parseColor("#3d553d"));
                     Log.d("Triolingo", "Flip nach rechts: korrekt");
                     markCurrentVocabCorrect();
                     goToNextVocab();
@@ -225,12 +225,12 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
                     // flip to left (wrong)
                     flipDetected = true;
                     rootView.setBackgroundColor(Color.parseColor("#553b3c")); // set background color to red
-                    linearLayout.setBackgroundColor(Color.parseColor("#553b3c"));
+                    frameLayout.setBackgroundColor(Color.parseColor("#553b3c"));
                     Log.d("Triolingo", "Flip nach links: falsch");
                     goToNextVocab();
                 } else {
                     rootView.setBackgroundColor(Color.parseColor("#3c3e55")); // keep background color
-                    linearLayout.setBackgroundColor(Color.parseColor("#3c3e55")); // keep background color
+                    frameLayout.setBackgroundColor(Color.parseColor("#3c3e55")); // keep background color
                 }
             }
         }
@@ -266,7 +266,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
             }
             showCurrentVocab();
             rootView.setBackgroundColor(Color.parseColor("#434343")); // keep default color
-            linearLayout.setBackgroundColor(Color.parseColor("#434343")); // keep default color
+            frameLayout.setBackgroundColor(Color.parseColor("#434343")); // keep default color
             waitingForFlip = false;
         }, 800);
     }
@@ -280,14 +280,14 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
         findViewById(R.id.exerciseButton).setVisibility(View.INVISIBLE);
         findViewById(R.id.remindButton).setVisibility(View.INVISIBLE);
-        linearLayout.setVisibility(View.VISIBLE);
+        frameLayout.setVisibility(View.VISIBLE);
         wordText.setVisibility(View.VISIBLE);
         translationText.setVisibility(View.INVISIBLE);
         progressText.setVisibility(View.VISIBLE);
         progressBar.setVisibility(View.VISIBLE);
 
         rootView.setBackgroundColor(Color.parseColor("#434343"));
-        linearLayout.setBackgroundColor(Color.parseColor("#434343"));
+        frameLayout.setBackgroundColor(Color.parseColor("#434343"));
 
         showCurrentVocab();
     }
@@ -297,7 +297,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         translationText.setVisibility(View.INVISIBLE);
         progressText.setVisibility(View.INVISIBLE);
         progressBar.setVisibility(View.INVISIBLE);
-        linearLayout.setVisibility(View.INVISIBLE);
+        frameLayout.setVisibility(View.INVISIBLE);
 
         findViewById(R.id.exerciseButton).setVisibility(View.VISIBLE); // More Exercises
         findViewById(R.id.remindButton).setVisibility(View.VISIBLE); // Remind me later

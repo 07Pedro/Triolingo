@@ -9,16 +9,8 @@ public class Vocab {
         return value;
     }
 
-    public void setValue(String value) {
-        this.value = value;
-    }
-
     public String getTranslation() {
         return translation;
-    }
-
-    public void setTranslation(String translation) {
-        this.translation = translation;
     }
 
     public Integer getCorrect() {
