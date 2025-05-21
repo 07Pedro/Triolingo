@@ -24,15 +24,16 @@ public class NotificationReceiver extends BroadcastReceiver {
         Intent activityIntent = new Intent(context, MainActivity.class);
         PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, activityIntent, PendingIntent.FLAG_IMMUTABLE);
 
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID) // Build notification with icon, text & priority
-                .setSmallIcon(R.mipmap.triolingo_icon)
+        // Build notification with icon, text & priority
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(context, CHANNEL_ID)
+                .setSmallIcon(R.mipmap.triolingo_icon_round)
                 .setContentTitle("Triolingo")
                 .setContentText("How about you study for a bit?")
                 .setPriority(NotificationCompat.PRIORITY_DEFAULT)
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true);
-
-        NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE); // get notificationservice from android
+        // get notificationservice from android
+        NotificationManager notificationManager = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         notificationManager.notify(100, builder.build()); // send builder value
     }
 
