@@ -16,10 +16,10 @@ public class AlarmScheduler {
         );
 
         Calendar cal = Calendar.getInstance(); // new calender
-        // cal.set(Calendar.HOUR_OF_DAY, 12); // set hours
-        // cal.set(Calendar.MINUTE, 0); // set minutes
-        // cal.set(Calendar.SECOND, 0); // set seconeds
-         cal.setTimeInMillis(System.currentTimeMillis() + 10_000);
+        cal.set(Calendar.HOUR_OF_DAY, 12); // set hours
+        cal.set(Calendar.MINUTE, 0); // set minutes
+        cal.set(Calendar.SECOND, 0); // set seconeds
+        // cal.setTimeInMillis(System.currentTimeMillis() + 10_000);
         long trigger = cal.getTimeInMillis();
 
         if (trigger < System.currentTimeMillis()) { // schedule for next day if time has passed.
